@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.box{
+    height: 100vh;
+    
+    background-color: #EAEAEA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-box{
+    height: 90vh;
+    width: 35%;
+    background-color: white;
+    
+}
+.box .inner-box img{
+
+    height: 30vh;
+    width: 100%;
+    
+}
+ul{
+    width: 80%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.form-floating{
+    margin-left: 50px;
+    width: 80%;
+    
+
+}
+
+ul h1{
+  font-size: 30px;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+.box .inner-box button{
+    width: 80%;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: none;
+    background-color: green;
+}
+/* .inner-box label{
+    height: 50%;
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-between;
+    border: none;
+} */
+.contact{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.form-check{
+    margin-right: 50px;
+}
+
+.sign{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.sign a{
+    text-decoration: none;
+    color: lightgreen;
+}
